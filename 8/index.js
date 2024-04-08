@@ -171,14 +171,12 @@
 // ______________Задание 7________________//
 
 // function getKiller(suspectInfo, deadPeople) {
-//     // Проходим по каждому подозреваемому
 //     for (let suspect in suspectInfo) {
-//         // Проверяем, видел ли этот подозреваемый всех убитых людей
 //         if (deadPeople.every(deadPerson => suspectInfo[suspect].includes(deadPerson))) {
-//             return suspect // Если да, возвращаем имя подозреваемого
+//             return suspect
 //         }
 //     }
-//     return "Преступник не найден" // Если ни один из подозреваемых не видел всех убитых людей
+//     return "Преступник не найден"
 // }
 
 // // Пример использования функции
