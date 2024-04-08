@@ -5,7 +5,7 @@
 //     stack: ['HTML'],
 //     level: 1,
 //     improveLevel() {
-//       this.level++; // Увеличиваем уровень студента на 1
+//       this.level++
 //       if (this.level === 2) {
 //         this.stack.push('CSS')
 //       } else if (this.level === 3) {

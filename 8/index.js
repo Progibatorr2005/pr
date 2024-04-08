@@ -16,6 +16,7 @@
 //         status: 'online',
 //         lastActivity: 104
 //     }
+
 // ]
 // let onlineUsers = users.filter(user => user.status === 'online')
 // let onlineUserNames = onlineUsers.map(user => user.username).join(', ')
