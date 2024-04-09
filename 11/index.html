@@ -1,12 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="index.js"></script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles.css">
+<script src="index.js"></script>
 </head>
 <body>
+<div class="create-task-block">
+  <form id="createTaskForm">
+    <input type="text" id="taskText" placeholder="Введите задачу" required>
+    <button type="submit">Добавить задачу</button>
+    <span class="error-message-block" style="color: red;"></span>
+  </form>
+</div>
+
+<div class="tasks-list">
+</div>
+
+<div class="modal-overlay modal-overlay_hidden">
+  <div class="delete-modal">
+    <h3 class="delete-modal__question">Вы действительно хотите удалить эту задачу?</h3>
+    <div class="delete-modal__buttons">
+      <button class="delete-modal__button delete-modal__cancel-button">Отмена</button>
+      <button class="delete-modal__button delete-modal__confirm-button">Удалить</button>
+    </div>
+  </div>
+  <button id="toggleThemeButton">таб</button>
+</div>
+
 
 </body>
 </html>
